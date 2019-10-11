@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './signup.css';
 import { loadUsers, setUsers } from '../../action/Action';
 import { withTranslation } from "react-i18next";
-import { compose } from '../../../../../../AppData/Local/Microsoft/TypeScript/3.6/node_modules/redux';
+import { compose } from 'redux';
 let _ = require('lodash');
 
 class SignUp extends React.Component{

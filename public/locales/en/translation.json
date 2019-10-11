@@ -14,5 +14,8 @@
     "Password length must be greater than 7": "Password length must be greater than 7",
     "Password and Confirm Password must be the same": "Password and Confirm Password must be the same",
     "Only letters with capital 1st letter": "Only letters with capital 1st letter",
-    "Email is not valid": "Email is not valid"
+    "Email is not valid": "Email is not valid",
+
+    "Login Success": "Login Success",
+    "Login Fail": "Login Fail" 
 }

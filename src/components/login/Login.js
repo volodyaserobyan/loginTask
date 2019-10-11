@@ -62,10 +62,10 @@ class Login extends React.Component{
                 }
             })
             if(this.isSignedUp == false) {
-                alert('Login Fail')
+                alert(this.props.t('Login Fail'))
             }
             else {
-                alert('Login Success')
+                alert(this.props.t('Login Success'))
             }
         }
     }

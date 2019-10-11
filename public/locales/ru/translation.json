@@ -14,5 +14,8 @@
     "Password length must be greater than 7": "Длина пароля должна быть больше 7",
     "Password and Confirm Password must be the same": "Пароль и Подтверждение пароля должны совпадать",
     "Only letters with capital 1st letter": "Только буквы с большой буквы",
-    "Email is not valid": "Email не является допустимым"
+    "Email is not valid": "Email не является допустимым",
+
+    "Login Success": "успешно",
+    "Login Fail": "провал" 
 }
