@@ -1,0 +1,18 @@
+{
+    "Log In": "Log In",
+    "E-mail or phone": "E-mail or phone",
+    "Password": "Password",
+    "Are you here for the first time?": "Are you here for the first time?",
+    "Sign Up": "Sign Up",
+
+    "Enter your e-mail": "Enter your e-mail",
+    "Enter your password": "Enter your password",
+    "Confirm Password": "Confirm Password",
+    "Enter your name": "Enter your name",
+    "Already registered?": "Already registered?",
+
+    "Password length must be greater than 7": "Password length must be greater than 7",
+    "Password and Confirm Password must be the same": "Password and Confirm Password must be the same",
+    "Only letters with capital 1st letter": "Only letters with capital 1st letter",
+    "Email is not valid": "Email is not valid"
+}

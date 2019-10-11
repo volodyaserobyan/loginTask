@@ -1,0 +1,25 @@
+.App {
+  height: 100vh;
+  width: 60%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  margin: 0 auto;
+}
+
+.languages{
+  margin-top: 100px;
+}
+
+.en, .ru {
+  background: white;
+  color: #cccccc;
+  border: 1px solid #cccccc;
+  margin-right: 3px;
+}
+.active{
+  color: green;
+  /* background: red; */
+  border: 1px solid #00ff00;
+}

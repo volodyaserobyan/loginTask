@@ -1,0 +1,18 @@
+{
+    "Log In": "логин",
+    "E-mail or phone": "По электронной почте или телефону",
+    "Password": "пароль",
+    "Are you here for the first time?": "Вы здесь впервые?",
+    "Sign Up": "Зарегистрироваться",
+
+    "Enter your e-mail": "Введите адрес электронной почты",
+    "Enter your password": "Введите свой пароль",
+    "Confirm Password": "Подтвердить Пароль",
+    "Enter your name": "Введите ваше имя",
+    "Already registered?": "Уже зарегистрирован?",
+
+    "Password length must be greater than 7": "Длина пароля должна быть больше 7",
+    "Password and Confirm Password must be the same": "Пароль и Подтверждение пароля должны совпадать",
+    "Only letters with capital 1st letter": "Только буквы с большой буквы",
+    "Email is not valid": "Email не является допустимым"
+}
