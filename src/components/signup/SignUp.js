@@ -18,6 +18,7 @@ class SignUp extends React.Component{
             name: '',
             errors: ''
         }
+        this.isSignedUp = false;
     }
 
     handleChange = (e) => {
@@ -70,8 +71,21 @@ class SignUp extends React.Component{
                 confPass: this.state.confirmPassword,
                 name: this.state.name
             }
-            this.props.loadUsers(sendObj)
-            this.props.handleSignUp({isSignUp: false})
+            this.props.userListReducer.map((item, i) => {
+                if(sendObj.email !== item.email){
+                    this.isSignedUp = true;
+                }
+                else {
+                    this.isSignedUp = false;
+                }
+            })
+            if(_.isEmpty(this.props.userListReducer) || this.isSignedUp){
+                this.props.loadUsers(sendObj)
+                this.props.handleSignUp({isSignUp: false})
+            }
+            else {
+                alert(this.props.t('User is already Signed Up'))
+            }
         }
    }
 
@@ -109,7 +123,7 @@ const mapStateToProps = state => {
     else {
 
         return {
-            
+            userListReducer: state.users
         };
     }
 }
