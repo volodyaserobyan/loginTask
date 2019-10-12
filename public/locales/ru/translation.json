@@ -17,5 +17,6 @@
     "Email is not valid": "Email не является допустимым",
 
     "Login Success": "успешно",
-    "Login Fail": "провал" 
+    "Login Fail": "провал",
+    "User is already Signed Up": "Пользователь уже зарегистрирован"
 }
