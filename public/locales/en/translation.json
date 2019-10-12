@@ -17,5 +17,7 @@
     "Email is not valid": "Email is not valid",
 
     "Login Success": "Login Success",
-    "Login Fail": "Login Fail" 
+    "Login Fail": "Login Fail",
+
+    "User is already Signed Up": "User is already Signed Up"
 }
